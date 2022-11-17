@@ -54,7 +54,7 @@ const calculatorElement = [
 ];
 
 const action = (n) => {
-  console.log(n + "input");
+  
   // APPEND VALUE
   if (!isNaN(n) || n === ".") {
     calculatorValue.value += n + "";
